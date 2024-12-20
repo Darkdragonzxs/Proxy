@@ -3,8 +3,8 @@
   src: url(/fonts/prompt.ttf);
 }
 @font-face {
-  font-family: Fredoka;
-  src: url(/fonts/fredoka.ttf);
+  font-family: Zekton;
+  src: url(/fonts/zekton.otf);
 }
 
 html {
@@ -25,7 +25,7 @@ h1,h2,h3 {
 }
 
 h4,h5,p,a {
-  font-family: "Fredoka";
+  font-family: "Zekton";
  color: white;
 }
 
@@ -43,7 +43,7 @@ resize: both;
     padding: 12px;
   text-align: center;
     color: black;
-    font-family: "Prompt";
+    font-family: "Zekton";
     background-color: white;
     outline: none;
     transition: hover .2s;
