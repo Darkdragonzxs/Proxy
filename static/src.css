@@ -130,14 +130,33 @@ h4,h5,p,a {
 
 nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background-color: #1c2020;
   padding: 10px 20px;
   position: relative;
   z-index: 1;
+  height: 50px;
+  border-radius: 14px;
+  width: 500px;
+}
+
+
+nav button {
+  background-color: #000000;
+  color: white;
+  border-radius: 16px;
+  padding: 10px 20px;
+  align-items: right;
+  border-radius: 8px;
+  font-family: "Zekton";
   border: 2px solid white;
-  border-radius: 15px;
+  margin-left: 5px;
+}
+
+button:hover {
+  filter: invert(1);
+  transform: scale(1.1);
+  transition: .2s;
 }
 
 button {
@@ -145,11 +164,15 @@ button {
   color: white;
   border-radius: 16px;
   padding: 10px 20px;
-  margin-left: 10px;
-  border-radius: 15px;
+  align-items: right;
+  border-radius: 8px;
+  font-family: "Zekton";
+  border: 2px solid white;
+  margin-left: 5px;
 }
 
-button:hover {
-  filter: invert(1);
-  transform: scale(1.1);
+div {
+  width: 60%;
+  border: 2px solid white;
+  align-items: center;
 }
