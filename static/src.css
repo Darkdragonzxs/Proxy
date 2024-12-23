@@ -81,7 +81,7 @@ h4,h5,p,a {
 
 .bookmarks img:hover {
   transition: .3s;
-  transform: scale(1.2);
+  transform: scale(1.1);
   border: 5px solid #ccc;
 }
 
@@ -126,4 +126,30 @@ h4,h5,p,a {
 #more:hover {
   transform: scale(1.1);
   transition: .3s;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c2020;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 1;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+button {
+  background-color: #000000;
+  color: white;
+  border-radius: 16px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+
+button:hover {
+  filter: invert(1);
+  transform: scale(1.1);
 }
