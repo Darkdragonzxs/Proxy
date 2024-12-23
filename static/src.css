@@ -8,22 +8,21 @@
   src: url(/fonts/zekton.otf);
 }
 
-html {
-  background-image: url(https://frutiger-aero.org/img/dark-aurora.webp);    
-  background-size: cover;
-  color: white;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-}
+  html {
+    background-image: url(/src/images/darkaurora.webp);    
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
 
 h1,h2,h3 {
   font-family: "Prompt";
   color: #fff;
-  margin-bottom: 20px;
-  margin-top: 160px;
+  margin-top: 20px;
 }
 
 h4,h5,p,a {
@@ -40,21 +39,19 @@ h4,h5,p,a {
 
 #uv-address {
   background-color: transparent;
-  border: 1.5px #000000 solid;
+  border: 1.5px #ffffff solid;
   border-radius: 12px;
   padding: 12px;
   text-align: center;
   color: black;
   font-family: "Zekton";
-  background-color: white;
   outline: none;
   transition: hover .2s;
-  width: 500px;
+  width: 270px;
   padding-left: 40px;
 }
 
 #uv-address:hover {
-  border: 4px solid black;
   transform: scale(1.1);
   cursor: pointer;
   transition: .2s;
@@ -74,15 +71,13 @@ h4,h5,p,a {
 
 .bookmarks img {
   border-radius: 25px;
-  width: 170px;
-  height: 90px;
-  clip-path: circle(100%);
+  width: 100px;
+  height: 100px;
 }
 
 .bookmarks img:hover {
-  transition: .3s;
+  transition: .2s;
   transform: scale(1.1);
-  border: 5px solid #ccc;
 }
 
 .bookmarks p:hover {
@@ -172,7 +167,10 @@ button {
 }
 
 div {
-  width: 60%;
-  border: 2px solid white;
+  width: 100%;
+  border: 4px solid white;
   align-items: center;
+  background-color: #000;
+  border-radius: 20px;
+  margin-top: 50px;
 }
