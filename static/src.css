@@ -164,13 +164,19 @@ button {
   font-family: "Zekton";
   border: 2px solid white;
   margin-left: 5px;
+  margin-bottom: 10px;
 }
 
-div {
+#card {
   width: 100%;
   border: 4px solid white;
   align-items: center;
   background-color: #000;
   border-radius: 20px;
   margin-top: 50px;
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.75;
 }
