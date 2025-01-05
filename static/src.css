@@ -9,7 +9,7 @@
 }
 
   html {
-    background-color: #221f30;  
+    background-color: #181825;  
     color: white;
     text-align: center;
     display: flex;
@@ -41,18 +41,15 @@ h4,h5,p,a {
   border-radius: 12px;
   padding: 12px;
   text-align: center;
-  color: black;
+  color: white;
   font-family: "Zekton";
   outline: none;
   transition: hover .2s;
   width: 270px;
-  padding-left: 40px;
 }
 
 #uv-address:hover {
-  transform: scale(1.1);
   cursor: pointer;
-  transition: .2s;
 }
 
 .bookmarks {
@@ -83,13 +80,13 @@ h4,h5,p,a {
   transition: .3s;
 }
 
-.svg {
+#svg {
   filter: invert(1);
   width: 30px;
   height: 30px;
 }
 
-.svg:hover {
+#svg:hover {
   cursor: pointer;
   transform: scale(1.1);
   transition: .3s;
@@ -100,6 +97,7 @@ h4,h5,p,a {
   font-size: 40px;
   margin-bottom: 20px;
   margin-top: 200px; 
+}
 
 #madewithlove {
   opacity: .4;
@@ -125,15 +123,16 @@ h4,h5,p,a {
 nav {
   display: flex;
   align-items: center;
-  background-color: #1c2020;
+  background-color: #1e1e2e;
   padding: 10px 20px;
-  position: relative;
-  z-index: 1;
+  position: absolute;
+  z-index: 2;
   height: 50px;
   border-radius: 14px;
   width: 500px;
+  left: -50px;
+  margin-top: 100px;
 }
-
 
 nav button {
   background-color: #000000;
