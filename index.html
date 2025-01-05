@@ -3,11 +3,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>latte</title>
   <link href="/static/src.css" rel="stylesheet">
-  <script src="/static/uv/uv.bundle.js" defer=""></script>
-  <script src="/static/uv/uv.config.js" defer=""></script>
-  <script src="/static/register-sw.js" defer=""></script>
-  <script src="/static/search.js" defer=""></script>
-  <script src="/static/index.js" defer=""></script>
       <!-- Google tag (gtag.js) -->
       <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YTQFSZLKJB"></script>
       <script>
@@ -19,44 +14,19 @@
       </script>
       <script src="/src/js/load.js"></script>
       <script src="/src/js/popup.js"></script>
+      <script src="/src/js/refresh-page.js"></script>
+      <script src="/src/js/fs.js"></script>
 </head>
 <body>
-    <div id="card">
-    <br>
-  <button onclick="window.location.href='index.html';">home</button>
-  <button onclick="window.location.href='games.html';">games</button>
-  <button class="disabled">apps (coming soon)</button>
-  <button onclick="window.location.href='bookmarklets.html';">bookmarks</button>
-  <h1 id="title">⭒ ☆ latte ☆ ⭒</h1>
-    <h4>• reach for the stars with latte. •</h4>
-  <form id="uv-form">
-      <input id="uv-search-engine" value="https://duckduckgo.com/?q=%s" type="hidden">
-        <input id="uv-address" type="text" placeholder="search duckduckgo." class="form__input">
-    </form>
-  
-  
-  
-
-<a class="bookmarks" href="/static/iframe.html#https://youtube.com">
-  <img src="/src/images/youtube.png" alt="youtube">
-     
-</a>
-
-
-
-<a class="bookmarks" href="/static/iframe.html#https://twitch.tv">
-  <img src="/src/images/twitch.png" alt="twitch">
-</a>
-<a class="bookmarks" href="/static/iframe.html#https://google.com">
-  <img src="/src/images/google.png" alt="google">
-     
-</a>
+  <nav>
+  <img id="svg" src="/src/images/left.svg" onclick="history.back()">
+  <img id="svg" src="/src/images/reload.svg" onclick="refreshFrame()">
+  <img id="svg" src="/src/images/right.svg" onclick="history.forward()">
+  <h1>latte</h1>
+  <img id="svg" src="/src/images/fullscreen.svg" onclick="toggleFullscreen()">
+  </nav>
+  <iframe src="static/index.html" id="proxyFrame"></iframe>
 <br>
-<button onclick="window.location.href='https://github.com/mochiworkshop/latteweb';">source code</button>
-<button class="disabled">settings (coming soon)</button>       
-<button class="disabled">credits (coming soon)</button>
-<button onclick="window.location.href='tos.html';">terms of service</button>
-<button onclick="window.location.href='partners.html';">partners</button>
 <p id="madewithlove">made with 💖 by @molkify</p>
 </div>
 </body></html>
