@@ -36,16 +36,16 @@ h4,h5,p,a {
 }
 
 #uv-address {
-  background-color: transparent;
+  background-color: white;
   border: 1.5px #ffffff solid;
   border-radius: 12px;
   padding: 12px;
   text-align: center;
-  color: white;
+  color: gray;
   font-family: "Zekton";
   outline: none;
   transition: hover .2s;
-  width: 270px;
+  width: 500px;
 }
 
 #uv-address:hover {
