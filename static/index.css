@@ -35,7 +35,7 @@
     justify-content: center;
   }
   
-  #form {
+  #uv-address {
     background-color: white;
     border: 1.5px #ffffff solid;
     border-radius: 12px;
@@ -48,7 +48,7 @@
     width: 500px;
   }
   
-  #form:hover {
+  #uv-address:hover {
     cursor: pointer;
   }
   
