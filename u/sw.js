@@ -1,5 +1,5 @@
-importScripts('/s/u/bundle.js');
-importScripts('/s/u/config.js');
+importScripts('/u/bundle.js');
+importScripts('/u/config.js');
 
 class UVServiceWorker extends EventEmitter {     
     constructor(config = __uv$config) {

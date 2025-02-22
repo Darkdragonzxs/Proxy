@@ -9,10 +9,4 @@ proxy, not that big of a file size, uhhhhh
 
 [Echo](https://3kh0.net) < the person who ~~made~~ skidded these stupid games
 
-# Building
-```shell
-pnpm install
-pnpm start
-```
-
 :3

@@ -1,10 +1,10 @@
 self.__uv$config = {
-    prefix: '/s/go/',
+    prefix: '/go/',
     bare:'https://t.thecappuccino.site/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
-    handler: '/s/u/handler.js',
-    bundle: '/s/u/bundle.js',
-    config: '/s/u/config.js',
-    sw: '/s/u/sw.js',
+    handler: '/u/handler.js',
+    bundle: '/u/bundle.js',
+    config: '/u/config.js',
+    sw: '/u/sw.js',
 };
