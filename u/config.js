@@ -1,5 +1,5 @@
 self.__uv$config = {
-    prefix: '/go/',
+    prefix: '/s/',
     bare:'https://t.thecappuccino.site/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
