@@ -1,7 +1,7 @@
        class URLManager {
             constructor() {
                 this.proxyFrame = document.getElementById('proxyFrame');
-                this.urlBar = document.querySelector('search-nav');
+                this.urlBar = document.querySelector('.search-nav');
                 this.reloadButton = document.querySelector('.reload-button');
                 this.errorTooltip = document.querySelector('.error-tooltip');
                 this.lastKnownUrl = '';
