@@ -30,31 +30,3 @@ function search(input, template) {
   // Treat the input as a search query
   return template.replace("%s", encodeURIComponent(input));
 }
-
-// search bar uv thing ion know
-const form = document.getElementById("uv-form");
-const address = document.getElementById("uv-address");
-const searchEngine = document.getElementById("uv-search-engine");
-const error = document.getElementById("uv-error");
-const errorCode = document.getElementById("uv-error-code");
-
-form.addEventListener("submit", async (event) => {
-  event.preventDefault();
-
-  try {
-    await registerSW();
-  } catch (err) {
-    error.textContent = "Failed to register service worker.";
-    errorCode.textContent = err.toString();
-    throw err;
-  }
-
-  let url = address.value.trim();
-  if (!url) {
-    url = "https://www.google.com/";
-  } else {
-    url = search(address.value, searchEngine.value);
-  }
-  
-  window.location.href = `frame.html?url=${encodeURIComponent(url)}`;
-});
